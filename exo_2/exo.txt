@@ -1,0 +1,19 @@
+Nouvel exercice : "Le Nettoyeur de Buffer" (Niveau 2)
+
+Maintenant que tu maîtrises l'inversion, on va corser la manipulation des indices. Cet exercice est très formateur pour comprendre comment on "déplace" des données dans un tableau.
+
+L'énoncé : Écris un programme qui demande une phrase à l'utilisateur. Ton programme doit supprimer tous les espaces de la phrase et tout décaler vers la gauche pour "fermer les trous".
+
+Les contraintes :
+
+    Toujours pas de <string.h>. Uniquement <stdio.h>.
+
+    Tu dois modifier le buffer en place (ne pas créer de deuxième tableau).
+
+    À la fin, ton buffer doit se terminer par un seul \0 correctement placé pour que printf n'affiche pas les restes de l'ancienne phrase à la fin.
+
+Exemple attendu :
+
+    Entrée : "Salut ça va ?"
+
+    Buffer après transformation : "Salutçava?"
