@@ -7,9 +7,9 @@ This is only for me to learn how to use a buffer
 
 ### 1. How to inverse data in a buffer
 
-data n°1 becomes the last, the last the first etc.
+data n°1 becomes the last, the last becomes the first etc.
 
-### 2. How to suppress unwanted space inside a buffer
+### 2. How to suppress spaces inside a buffer
 
 For exemple "Hi There" becomes "HiThere".
 
