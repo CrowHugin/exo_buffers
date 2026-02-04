@@ -1,0 +1,19 @@
+📝 L'énoncé : Le Miroir de Poche
+
+Ton objectif est d'écrire un programme en C qui réalise les étapes suivantes, dans l'ordre exact :
+
+    Déclaration : Crée un buffer (un tableau de caractères) d'une taille fixe de 10.
+
+    Saisie : Demande à l'utilisateur de taper un mot ou une phrase.
+
+    Stockage : Range ce que l'utilisateur a tapé dans ton buffer.
+
+    Transformation : Inverse le contenu du buffer (le dernier caractère devient le premier, etc.). Note : Tu dois modifier le buffer lui-même, pas juste l'afficher à l'envers.
+
+    Affichage : Affiche le contenu final du buffer.
+
+⚠️ Les contraintes (pour que ce soit formateur)
+
+    Tu ne dois pas utiliser de fonctions de la bibliothèque <string.h> (pas de strlen, pas de strcpy, etc.). Tu dois tout faire avec des boucles et des indices (i, j).
+
+    Tu dois utiliser uniquement la bibliothèque <stdio.h>.
