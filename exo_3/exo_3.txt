@@ -1,0 +1,23 @@
+3. Nouvel exercice : "L'Unique" (Niveau 3)
+
+Maintenant qu'on a vu comment "tasser" un tableau, on va s'attaquer à la logique de comparaison.
+
+L'énoncé : Écris un programme qui demande une phrase à l'utilisateur. Ton programme doit supprimer les doublons consécutifs de caractères. Si une lettre apparaît plusieurs fois de suite, on n'en garde qu'une seule.
+
+Les contraintes :
+
+    Toujours pas de <string.h>.
+
+    Modification en place dans le buffer (pas de deuxième tableau).
+
+    Gestion propre du \0 final.
+
+Exemple attendu :
+
+    Entrée : "Allooo ? Il y a quelqu'uuuuun ??"
+
+    Sortie : "Alo ? Il y a quelqu'un ?"
+
+    Indice : Tu vas devoir comparer l'élément actuel avec le précédent (ou le suivant) avant de décider si tu dois "l'écrire" ou non.
+
+Est-ce que tu te sens de tenter cette version avec la logique des deux indices (lecture/écriture) ?
